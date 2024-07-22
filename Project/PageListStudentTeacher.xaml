@@ -1,0 +1,61 @@
+﻿<Page x:Class="Project.PageListStudentTeacher"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Project"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PageListStudentTeacher">
+    <Grid Background="#FFC9E3EE">
+        <StackPanel>
+            <Label HorizontalAlignment="Center" FontWeight="Bold" FontSize="24" Foreground="#FF3E3D64">YOUR CLASSROOM</Label>
+            <DataGrid Name="dgClass" HorizontalAlignment="Center" CurrentCellChanged="dgClass_CurrentCellChanged" />
+
+            <Grid HorizontalAlignment="Center" Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Row 1 -->
+                <Label Grid.Row="0" Grid.Column="0" FontWeight="Bold" Foreground="#FF3E3D64" Margin="5">The ID:</Label>
+                <TextBox Grid.Row="0" Grid.Column="1" Width="200" Name="txtId" IsReadOnly="True" Margin="5"/>
+                <Label Grid.Row="0" Grid.Column="2" FontWeight="Bold" Foreground="#FF3E3D64" Margin="5">The Major:</Label>
+                <TextBox Grid.Row="0" Grid.Column="3" Width="200" Name="txtMajor" IsReadOnly="True" Margin="5"/>
+
+                <!-- Row 2 -->
+                <Label Grid.Row="1" Grid.Column="0" FontWeight="Bold" Foreground="#FF3E3D64" Margin="5">The Name:</Label>
+                <TextBox Grid.Row="1" Grid.Column="1" Width="200" Name="txtName" IsReadOnly="True" Margin="5"/>
+                <Label Grid.Row="1" Grid.Column="2" FontWeight="Bold" Foreground="#FF3E3D64" Margin="5">The Email:</Label>
+                <TextBox Grid.Row="1" Grid.Column="3" Width="200" Name="txtEmail" IsReadOnly="True" Margin="5"/>
+
+                <!-- Row 3 -->
+                <Label Grid.Row="2" Grid.Column="0" FontWeight="Bold" Foreground="#FF3E3D64" Margin="5">The Birthday:</Label>
+                <TextBox Grid.Row="2" Grid.Column="1" Width="200" Name="txtDob" IsReadOnly="True" Margin="5"/>
+                <Label Grid.Row="2" Grid.Column="2" FontWeight="Bold" Foreground="#FF3E3D64" Margin="5">The Gender:</Label>
+                <TextBox Grid.Row="2" Grid.Column="3" Width="200" Name="txtGender" IsReadOnly="True" Margin="5"/>
+
+                <!-- Row 4 -->
+                <Label Grid.Row="3" Grid.Column="0" FontWeight="Bold" Foreground="#FF3E3D64" Margin="5">The Address:</Label>
+                <TextBox Grid.Row="3" Grid.Column="1" Width="200" Name="txtAdress" IsReadOnly="True" Margin="5"/>
+                <Label Grid.Row="3" Grid.Column="2" FontWeight="Bold" Foreground="#FF3E3D64" Margin="5">The Phone:</Label>
+                <TextBox Grid.Row="3" Grid.Column="3" Width="200" Name="txtPhone" IsReadOnly="True" Margin="5"/>
+            </Grid>
+
+            <WrapPanel HorizontalAlignment="Center" Margin="10">
+                <Button Background="#FF3E3D64" Width="110" FontWeight="Bold" Foreground="White" Height="29" Content="Reset" Name="btnReset" Margin="5" Click="btnReset_Click" />
+                <Button Background="#FF3E3D64" Width="110" FontWeight="Bold" Foreground="White" Height="29"  Content="Chat with student" Name="fb" Margin="5" Click="fb_Click" />
+            </WrapPanel>
+        </StackPanel>
+        <Frame x:Name="ContentFrameChatTc" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+    </Grid>
+</Page>

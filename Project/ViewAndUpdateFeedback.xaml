@@ -1,0 +1,60 @@
+﻿<Window x:Class="Project.ViewAndUpdateFeedback"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project"
+        mc:Ignorable="d"
+        Title="ViewAndUpdateFeedback" Height="450" Width="800">
+    <Grid Background="#FFC9E3EE">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" FontWeight="Bold" FontSize="36" Foreground="#FF3E3D64">Feedback lecturer</Label>
+
+        <Label Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" FontWeight="Bold" FontSize="18" Foreground="#FF3E3D64">Question</Label>
+        <Label Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" FontWeight="Bold" FontSize="18" Foreground="#FF3E3D64">Frequency</Label>
+        <Label Grid.Row="2" Grid.Column="0"></Label>
+        <WrapPanel Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center">
+            <Label FontSize="14" Foreground="#FF3E3D64" FontWeight="Bold">Nerver</Label>
+            <Label Margin="45,0,45,0" FontSize="14" Foreground="#FF3E3D64" FontWeight="Bold">Sometimes</Label>
+            <Label FontSize="14" Foreground="#FF3E3D64" FontWeight="Bold">Always</Label>
+        </WrapPanel>
+        <Label Grid.Row="3" Grid.Column="0" FontSize="14" Foreground="#FF3E3D64">Does the lecturer come to class on time?</Label>
+        <Label Grid.Row="4" Grid.Column="0" FontSize="14" Foreground="#FF3E3D64">Does the lecturer ensure lesson progress?</Label>
+        <Label Grid.Row="5" Grid.Column="0" FontSize="14" Foreground="#FF3E3D64">Does the lecturer respond to student questions in class?</Label>
+
+        <WrapPanel Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <RadioButton x:Name="FreOntime1" GroupName="FreOntime" Tag="3"/>
+            <RadioButton x:Name="FreOntime2" GroupName="FreOntime" Tag="2" Margin="100,0,100,0"/>
+            <RadioButton x:Name="FreOntime3" GroupName="FreOntime" Tag="1"/>
+        </WrapPanel>
+        <WrapPanel Grid.Row="4" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <RadioButton x:Name="FreFull1" GroupName="FreFull" Tag="3"/>
+            <RadioButton x:Name="FreFull2" GroupName="FreFull" Tag="2" Margin="100,0,100,0"/>
+            <RadioButton x:Name="FreFull3" GroupName="FreFull" Tag="1"/>
+        </WrapPanel>
+        <WrapPanel Grid.Row="5" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <RadioButton x:Name="FreResponse1" GroupName="FreResponse" Tag="3"/>
+            <RadioButton x:Name="FreResponse2" GroupName="FreResponse" Tag="2" Margin="100,0,100,0"/>
+            <RadioButton x:Name="FreResponse3" GroupName="FreResponse" Tag="1"/>
+        </WrapPanel>
+        <Label  Grid.Row="6" Grid.Column="0" Margin="0,25,0,0" FontSize="14" Foreground="#FF3E3D64" >Write your thoughts about the lecturer</Label>
+        <TextBox Name="comment" Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2" Height="100" Margin="10,0,10,0" Grid.RowSpan="2"></TextBox>
+        <Button  Background="#FF3E3D64" FontWeight="Bold" Foreground="White" Grid.Row="9" Grid.Column="0" Height="30" Width="120"  Click="Button_Click_1" Margin="0,20,0,0">Update feedback</Button>
+        <Button  Background="#FF3E3D64" FontWeight="Bold" Foreground="White" Grid.Row="9" Grid.Column="1" Height="30" Width="120"  Click="Button_Click" Margin="0,20,0,0" >Back to classroom</Button>
+    </Grid>
+</Window>

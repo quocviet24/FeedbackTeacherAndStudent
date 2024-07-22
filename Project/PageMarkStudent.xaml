@@ -1,0 +1,72 @@
+﻿<Page x:Class="Project.PageMarkStudent"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Project"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PageMarkStudent">
+    <Grid Background="#FFC9E3EE">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <WrapPanel Grid.Column="0" Grid.ColumnSpan="3" HorizontalAlignment="Center">
+            <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" FontWeight="Bold" FontSize="24" Foreground="#FF3E3D64">Grade report of</Label>
+            <TextBox  BorderThickness="0" FontWeight="Bold" FontSize="24" Foreground="#FF3E3D64" Background="#FFC9E3EE" x:Name="Name"/>
+        </WrapPanel>
+        <DataGrid Height="auto" Grid.Column="0" Grid.Row="1" Name="dgSubject" HorizontalAlignment="Center" CurrentCellChanged="dgSubject_CurrentCellChanged" />
+        <Grid Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" VerticalAlignment="Stretch">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!-- Labels -->
+            <Label  Grid.Row="0" Grid.Column="0" Content="Assignment1"/>
+            <Label Grid.Row="1" Grid.Column="0" Content="Assignment2"/>
+            <Label Grid.Row="2" Grid.Column="0" Content="ProgressTest1"/>
+            <Label Grid.Row="3" Grid.Column="0" Content="ProgressTest2"/>
+            <Label Grid.Row="4" Grid.Column="0" Content="GroupProject"/>
+            <Label Grid.Row="5" Grid.Column="0" Content="PE"/>
+            <Label Grid.Row="6" Grid.Column="0" Content="FE"/>
+            <Label Grid.Row="7" Grid.Column="0" Content="FER"/>
+            <Label Grid.Row="8" Grid.Column="0" Content="Total"/>
+
+            <!-- TextBoxes -->
+            <TextBox Width="25" Grid.Row="0" Grid.Column="1" IsReadOnly="True" Name="Assignment1"/>
+            <TextBox Grid.Row="1" Grid.Column="1" IsReadOnly="True" Name="Assignment2"/>
+            <TextBox Grid.Row="2" Grid.Column="1" IsReadOnly="True" Name="ProgressTest1"/>
+            <TextBox Grid.Row="3" Grid.Column="1" IsReadOnly="True" Name="ProgressTest2"/>
+            <TextBox Grid.Row="4" Grid.Column="1" IsReadOnly="True" Name="GroupProject"/>
+            <TextBox Grid.Row="5" Grid.Column="1" IsReadOnly="True" Name="PE"/>
+            <TextBox Grid.Row="6" Grid.Column="1" IsReadOnly="True" Name="FE"/>
+            <TextBox Grid.Row="7" Grid.Column="1" IsReadOnly="True" Name="FER"/>
+            <TextBox Grid.Row="8" Grid.Column="1" IsReadOnly="True" Name="Total"/>
+        </Grid>
+    </Grid>
+</Page>

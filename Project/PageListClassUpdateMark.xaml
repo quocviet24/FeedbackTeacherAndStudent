@@ -1,0 +1,19 @@
+﻿<Page x:Class="Project.PageListClassUpdateMark"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Project"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PageListClassUpdateMark">
+    <Grid Background="#FFC9E3EE">
+        <StackPanel>
+            <Label HorizontalAlignment="Center" FontWeight="Bold" FontSize="24" Foreground="#FF3E3D64">YOUR CLASSROOM</Label>
+            <DataGrid Name="dgClass" HorizontalAlignment="Center" CurrentCellChanged="dgClass_CurrentCellChanged"/>
+            <TextBox x:Name="txtName" Visibility="Collapsed"/>
+            <TextBox x:Name="txtSubject" Visibility="Collapsed"/>
+        </StackPanel>
+        <Frame Grid.Row="1" x:Name="ContentFrame" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+    </Grid>
+</Page>

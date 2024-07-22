@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "T:\\Ky5\\PRN212\\Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E568A97F-69DB-4917-9FA2-6A6D41AE2386}|Project\\Project.csproj|t:\\ky5\\prn212\\project\\project\\pageliststudentteacher.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E568A97F-69DB-4917-9FA2-6A6D41AE2386}|Project\\Project.csproj|solutionrelative:project\\pageliststudentteacher.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E568A97F-69DB-4917-9FA2-6A6D41AE2386}|Project\\Project.csproj|t:\\ky5\\prn212\\project\\project\\pageprofileteacher.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E568A97F-69DB-4917-9FA2-6A6D41AE2386}|Project\\Project.csproj|solutionrelative:project\\pageprofileteacher.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E568A97F-69DB-4917-9FA2-6A6D41AE2386}|Project\\Project.csproj|t:\\ky5\\prn212\\project\\project\\pageliststudentteacher.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E568A97F-69DB-4917-9FA2-6A6D41AE2386}|Project\\Project.csproj|solutionrelative:project\\pageliststudentteacher.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E568A97F-69DB-4917-9FA2-6A6D41AE2386}|Project\\Project.csproj|t:\\ky5\\prn212\\project\\project\\pagechatstudent.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E568A97F-69DB-4917-9FA2-6A6D41AE2386}|Project\\Project.csproj|solutionrelative:project\\pagechatstudent.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E568A97F-69DB-4917-9FA2-6A6D41AE2386}|Project\\Project.csproj|t:\\ky5\\prn212\\project\\project\\models\\messageschat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E568A97F-69DB-4917-9FA2-6A6D41AE2386}|Project\\Project.csproj|solutionrelative:project\\models\\messageschat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PageProfileTeacher.xaml.cs",
+              "DocumentMoniker": "T:\\Ky5\\PRN212\\Project\\Project\\PageProfileTeacher.xaml.cs",
+              "RelativeDocumentMoniker": "Project\\PageProfileTeacher.xaml.cs",
+              "ToolTip": "T:\\Ky5\\PRN212\\Project\\Project\\PageProfileTeacher.xaml.cs",
+              "RelativeToolTip": "Project\\PageProfileTeacher.xaml.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAkwFAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T03:14:56.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MessagesChat.cs",
+              "DocumentMoniker": "T:\\Ky5\\PRN212\\Project\\Project\\Models\\MessagesChat.cs",
+              "RelativeDocumentMoniker": "Project\\Models\\MessagesChat.cs",
+              "ToolTip": "T:\\Ky5\\PRN212\\Project\\Project\\Models\\MessagesChat.cs",
+              "RelativeToolTip": "Project\\Models\\MessagesChat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T03:13:58.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PageChatStudent.xaml.cs",
+              "DocumentMoniker": "T:\\Ky5\\PRN212\\Project\\Project\\PageChatStudent.xaml.cs",
+              "RelativeDocumentMoniker": "Project\\PageChatStudent.xaml.cs",
+              "ToolTip": "T:\\Ky5\\PRN212\\Project\\Project\\PageChatStudent.xaml.cs",
+              "RelativeToolTip": "Project\\PageChatStudent.xaml.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAkwEUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T02:51:59.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PageListStudentTeacher.xaml",
+              "DocumentMoniker": "T:\\Ky5\\PRN212\\Project\\Project\\PageListStudentTeacher.xaml",
+              "RelativeDocumentMoniker": "Project\\PageListStudentTeacher.xaml",
+              "ToolTip": "T:\\Ky5\\PRN212\\Project\\Project\\PageListStudentTeacher.xaml",
+              "RelativeToolTip": "Project\\PageListStudentTeacher.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-16T02:44:28.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PageListStudentTeacher.xaml.cs",
+              "DocumentMoniker": "T:\\Ky5\\PRN212\\Project\\Project\\PageListStudentTeacher.xaml.cs",
+              "RelativeDocumentMoniker": "Project\\PageListStudentTeacher.xaml.cs",
+              "ToolTip": "T:\\Ky5\\PRN212\\Project\\Project\\PageListStudentTeacher.xaml.cs",
+              "RelativeToolTip": "Project\\PageListStudentTeacher.xaml.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAAwHYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T02:44:25.943Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+﻿<Window x:Class="Project.HomeStudent"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project"
+        mc:Ignorable="d"
+        Title="HomeStudent" Height="500" Width="870">
+    <Grid Background="#FFC9E3EE">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <ListBox Grid.Row="0" Background="#FFC9E3EE" x:Name="Navigation" Width="Auto" SelectionChanged="Navigation_SelectionChanged" HorizontalAlignment="Center" VerticalAlignment="Stretch">
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <StackPanel Orientation="Horizontal"/>
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+            <ListBoxItem Background="#FF3E3D64" Width="150" Height="30" FontWeight="Bold" Foreground="White" Content="Profile" Margin="7.1,0,0,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+            <ListBoxItem Background="#FF3E3D64" Width="150" Height="30" FontWeight="Bold" Foreground="White" Content="Classroom" Margin="20,0,20,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+            <ListBoxItem Background="#FF3E3D64" Width="150" Height="30" FontWeight="Bold" Foreground="White" Content="Mark" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+            <ListBoxItem Background="#FF3E3D64" Width="150" Height="30" FontWeight="Bold" Foreground="White" Content="Show tab" Margin="20,0,20,0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+            <ListBoxItem Background="#3E3D64" Width="150" Height="30" FontWeight="Bold" Foreground="White" Content="Logout" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+        </ListBox>
+        <Frame Grid.Row="1" x:Name="ContentFrame" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+    </Grid>
+
+</Window>

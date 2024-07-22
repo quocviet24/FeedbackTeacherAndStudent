@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Feedback.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="HomeStudent.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="HomeTeacher.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PageChatStudent.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PageClassroomStudent .xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PageClassroomTeacher.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PageFeedbackTeacher.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PageListClassUpdateMark.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PageListStudentTeacher.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PageMarkStudent.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PageMarkTeacher.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PageProfileStudent.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PageProfileTeacher.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PageRoomChatStudent.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewAndUpdateFeedback.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewFeedback.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Feedback.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="HomeStudent.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="HomeTeacher.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PageChatStudent.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PageClassroomStudent .xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PageClassroomTeacher.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PageFeedbackTeacher.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PageListClassUpdateMark.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PageListStudentTeacher.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PageMarkStudent.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PageMarkTeacher.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PageProfileStudent.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PageProfileTeacher.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PageRoomChatStudent.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewAndUpdateFeedback.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ViewFeedback.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
